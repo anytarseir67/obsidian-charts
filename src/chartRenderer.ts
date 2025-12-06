@@ -136,7 +136,8 @@ export default class Renderer {
                             title: {
                                 display: yaml.yTitle,
                                 text: yaml.yTitle
-                            }
+                            },
+                            type: yaml.yType
                         },
                         //@ts-ignore
                         x: {
@@ -154,7 +155,8 @@ export default class Renderer {
                             title: {
                                 display: yaml.xTitle,
                                 text: yaml.xTitle
-                            }
+                            },
+                            type: yaml.xType
                         }
                     },
                 }
