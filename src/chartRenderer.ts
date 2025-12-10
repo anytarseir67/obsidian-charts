@@ -120,6 +120,7 @@ export default class Renderer {
                     },
                     indexAxis: yaml.indexAxis,
                     spanGaps: yaml.spanGaps,
+                    showLine: yaml.showLine,
                     scales: {
                         y: {
                             min: yaml.yMin,
